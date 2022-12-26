@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProEventos.Domain
 {
-	[Table(name: "evento")]
+	//[Table(name: "evento")] Para colocar o nome diferente da table no banco de dados
 	public class Evento
 	{
 		public int Id { get; set; }
